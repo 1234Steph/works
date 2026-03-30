@@ -179,7 +179,7 @@ section .p1{
 
 #bar, #close{
     color: white;
-    font-size: 60px;
+    font-size: 45px;
     cursor: pointer;
     display: none;
     padding-right: 20px;
