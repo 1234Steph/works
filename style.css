@@ -182,6 +182,7 @@ section .p1{
     font-size: 60px;
     cursor: pointer;
     display: none;
+    padding-right: 20px;
 }
 
 
