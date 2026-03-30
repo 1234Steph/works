@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <style>
+    body{
+            background-image: url(6128.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        form{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 90%;
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+        }
+        input{
+            
+            display: flex;
+            align-items: center;
+            width: 400px;
+            padding: 10px;
+            width: 100%;
+            margin: 8px 0;
+            box-sizing: border-box;
+            
+            
+        
+        }
+        .btn{
+            display: inline-block;
+            width: 100px;
+            padding: 12px 0;
+            border-radius: 12px;
+            font-size: 20px;
+            position: fixed;
+            
+            
+        }
+        .btn i{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+            text-align: center;
+            
+            
+        }
+        .active{
+            background-color: black;
+            color: whitesmoke;
+            border: none;
+            width: 100px;
+            padding: 10px;
+        }
+        
+            
+        
+        </style>
+    <a href="sign up.html" class="btn"> <i class="fa fa-times"></i></a>
+    <form action="backend/signup.php" method="post">
+    <label for="username"></label>
+    <input type="text" id="username" placeholder="first name">
+    
+    <label for="midlle name"></label>
+    <input type="text" id="middle name" placeholder="middle name">
+    
+    <label for="last name"></label>
+    <input type="text" id="last name" placeholder="last name">
+    
+    <label for="email"></label>
+    <input type="text" id="email" placeholder="email">
+    
+    <label for="phone number"></label>
+    <input type="text" id="phone number" placeholder="phone number">
+
+    <label for="date of birth"></label>
+    <input type="date" id="date">
+
+    <label for="password"></label>
+    <input type="password" id="psw" placeholder="password">
+    <button type="submit" class="active">log in</button>
+
+    
+</body>
+</html>
